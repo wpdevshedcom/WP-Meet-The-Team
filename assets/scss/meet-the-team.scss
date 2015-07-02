@@ -1,0 +1,239 @@
+/*
+ * WP Meet Theme Team Styles
+ * @Author WP Dev
+ */
+ 
+/*
+ * Reset
+ --------------------*/ 
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.meet-the-team {
+	.peoples {
+		&:after {
+			clear: both;
+		}
+		
+		&:after,
+		&:before {
+			content: " ";
+			display: table;
+		}
+		
+		.people {
+			margin: 0;
+			margin-bottom: 20px;
+			list-style: none;
+			
+			&.hentry{
+				box-shadow: none;
+			}
+			
+			.people-item {
+				box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.1);
+				border-radius: 4px;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				  
+				h3, h4 {
+					margin: 0;
+					padding: 0;
+				}
+				
+				figure {
+					img {
+						width: 100%;
+						height: auto;
+						
+						border-top-right-radius: 4px;
+						border-top-left-radius: 4px;
+					}
+				}
+				
+				.people-title {
+					margin-top: 10px;
+					
+					a {
+						color: #222;
+						
+						&:hover {
+							color: #337ab7;
+						}
+					}
+				}
+				
+			}
+
+		}
+	}
+}
+
+// People Lists and Single People Item
+.people-title {
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #222;
+}
+
+.people-job-title {
+	margin: 0;
+	margin-top: 10px;
+	
+	h4 {
+		margin: 0 !important;
+		padding: 0 !important;
+		
+		font-weight: normal;
+		font-size: 14px;
+		color: #aaa;
+	}
+}
+
+.people-content {
+	margin-top: 10px;
+}
+
+// Social Media
+ul.social-profile {
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	border-top: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	
+	&:first-child li {
+		padding-left: 0;
+	}
+	
+	&:last-child li {
+		padding-right: 0;
+	}
+	
+	li {
+		margin: 0;
+		margin-bottom: 4px;
+		padding: 0 4px !important;
+		display: inline-block;
+		
+		&:before {
+			content: "" !important;
+			background-color: transparent !important;
+			display: none;
+		}
+		
+		a {
+			border-bottom: 0;
+			
+			.fa {
+				color: #aaa;
+			}
+			
+			&.facebook:hover > .fa {
+				color: #3b5998;
+			}
+			
+			&.twitter:hover > .fa {
+				color: #55acee;
+			}
+			
+			&.google-plus:hover > .fa {
+				color: #e23e3e;
+			}
+			
+			&.instagram:hover > .fa {
+				color: #316699;
+			}
+			
+			&.linkedin:hover > .fa {
+				color: #007BB5;
+			}
+			
+			&.envelope:hover > .fa {
+				color: #4C4C4C;
+			}
+			
+		}
+	}
+
+}
+
+
+// Single People Item
+.single-people-item {
+
+	.images {
+		float: left;
+		width: 20%;
+		
+		figure {
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+	.summary {
+		float: right;
+		width: 78%;
+	}
+	
+	.people-title {
+		font-weight: bold;
+		font-size: 22px;
+	}
+	
+	.people-item-description {
+		margin-top: 20px;
+	}
+	
+}
+
+
+// Fix Theme Overwrite Issue
+.meet-the-team .container .container {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.meet-the-team .post-content {
+	overflow: visible;
+}
+
+.single-people .post-content ul,
+.meet-the-team .post-content ul {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.meet-the-team .post-content img {
+	margin-top: 0 !important;
+}
+
+.full-width .site-content .hentry.has-post-thumbnail:first-child {
+	margin-top: 0 !important;
+}

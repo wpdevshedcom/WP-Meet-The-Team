@@ -1,0 +1,80 @@
+/*
+ * Meet Theme Team Layout Styles
+ */
+.peoples:before,
+ul.peoples:afer {
+  display: table;
+  content: " ";
+}
+
+.peoples {
+  margin-right: -10px !important;
+  margin-left: -10px !important;
+}
+.peoples .people {
+  float: left;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  position: relative;
+  min-height: 1px;
+}
+.peoples .people:after, .peoples .people.first {
+  clear: both;
+}
+
+@media screen and (max-width: 767px) {
+  .peoples .people {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .peoples .people {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .peoples .people {
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .peoples .people.col-12 {
+    width: 100%;
+  }
+  .peoples .people.col-11 {
+    width: 91.66666667%;
+  }
+  .peoples .people.col-10 {
+    width: 83.33333333%;
+  }
+  .peoples .people.col-9 {
+    width: 75%;
+  }
+  .peoples .people.col-8 {
+    width: 66.66666667%;
+  }
+  .peoples .people.col-7 {
+    width: 58.33333333%;
+  }
+  .peoples .people.col-6 {
+    width: 50%;
+  }
+  .peoples .people.col-5 {
+    width: 41.66666667%;
+  }
+  .peoples .people.col-4 {
+    width: 33.33333333%;
+  }
+  .peoples .people.col-3 {
+    width: 25%;
+  }
+  .peoples .people.col-20 {
+    width: 20%;
+  }
+  .peoples .people.col-2 {
+    width: 16.66666667%;
+  }
+  .peoples .people.col-1 {
+    width: 8.33333333%;
+  }
+}

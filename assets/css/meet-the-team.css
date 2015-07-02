@@ -1,0 +1,188 @@
+/*
+ * WP Meet Theme Team Styles
+ * @Author WP Dev
+ */
+/*
+ * Reset
+ --------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.meet-the-team .peoples:after {
+  clear: both;
+}
+.meet-the-team .peoples:after, .meet-the-team .peoples:before {
+  content: " ";
+  display: table;
+}
+.meet-the-team .peoples .people {
+  margin: 0;
+  margin-bottom: 20px;
+  list-style: none;
+}
+.meet-the-team .peoples .people.hentry {
+  box-shadow: none;
+}
+.meet-the-team .peoples .people .people-item {
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+.meet-the-team .peoples .people .people-item h3, .meet-the-team .peoples .people .people-item h4 {
+  margin: 0;
+  padding: 0;
+}
+.meet-the-team .peoples .people .people-item figure img {
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.meet-the-team .peoples .people .people-item .people-title {
+  margin-top: 10px;
+}
+.meet-the-team .peoples .people .people-item .people-title a {
+  color: #222;
+}
+.meet-the-team .peoples .people .people-item .people-title a:hover {
+  color: #337ab7;
+}
+
+.people-title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.people-job-title {
+  margin: 0;
+  margin-top: 10px;
+}
+.people-job-title h4 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-weight: normal;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.people-content {
+  margin-top: 10px;
+}
+
+ul.social-profile {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border-top: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+ul.social-profile:first-child li {
+  padding-left: 0;
+}
+ul.social-profile:last-child li {
+  padding-right: 0;
+}
+ul.social-profile li {
+  margin: 0;
+  margin-bottom: 4px;
+  padding: 0 4px !important;
+  display: inline-block;
+}
+ul.social-profile li:before {
+  content: "" !important;
+  background-color: transparent !important;
+  display: none;
+}
+ul.social-profile li a {
+  border-bottom: 0;
+}
+ul.social-profile li a .fa {
+  color: #aaa;
+}
+ul.social-profile li a.facebook:hover > .fa {
+  color: #3b5998;
+}
+ul.social-profile li a.twitter:hover > .fa {
+  color: #55acee;
+}
+ul.social-profile li a.google-plus:hover > .fa {
+  color: #e23e3e;
+}
+ul.social-profile li a.instagram:hover > .fa {
+  color: #316699;
+}
+ul.social-profile li a.linkedin:hover > .fa {
+  color: #007BB5;
+}
+ul.social-profile li a.envelope:hover > .fa {
+  color: #4C4C4C;
+}
+
+.single-people-item .images {
+  float: left;
+  width: 20%;
+}
+.single-people-item .images figure img {
+  width: 100%;
+  height: auto;
+}
+.single-people-item .summary {
+  float: right;
+  width: 78%;
+}
+.single-people-item .people-title {
+  font-weight: bold;
+  font-size: 22px;
+}
+.single-people-item .people-item-description {
+  margin-top: 20px;
+}
+
+.meet-the-team .container .container {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.meet-the-team .post-content {
+  overflow: visible;
+}
+
+.single-people .post-content ul,
+.meet-the-team .post-content ul {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.meet-the-team .post-content img {
+  margin-top: 0 !important;
+}
+
+.full-width .site-content .hentry.has-post-thumbnail:first-child {
+  margin-top: 0 !important;
+}

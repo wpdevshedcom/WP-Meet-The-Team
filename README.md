@@ -18,22 +18,17 @@ Manual Installation
 1. Upload the entire '/wp-meet-the-team' directory to the '/wp-content/plugins/' directory.
 2. Activate WP Image Embeds through the 'Plugins' menu in WordPress.
 
-Frequently Asked Questions
-===================
+# Frequently Asked Questions
 
 
-Screenshots
-===================
+# Screenshots
 
 
-Changelog 
-===================
-
+# Changelog 
 1.0
 * First release
 
-Upgrade Notice
-===================
+# Upgrade Notice
 
 0.1.0
 First Release

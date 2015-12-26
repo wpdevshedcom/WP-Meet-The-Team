@@ -43,8 +43,8 @@ $classes[] = 'people';
 	
 	<?php
 		$profile_link_url = '';
-		$enable_profile_page = get_theme_mod( 'meet_the_team_enable_profile_page' );
-
+		$enable_profile_page = get_option( 'meet_the_team_enable_profile_page', 1 );
+		
 		if( $enable_profile_page )
 			$profile_link_url = get_the_permalink();
 		else
@@ -84,7 +84,7 @@ $classes[] = 'people';
 				<?php if( $profile_link_url ) { ?>
 					</a>
 				<?php } ?>
-
+				
 			</header>
 
 			<div class="people-job-title">

@@ -1,5 +1,6 @@
-# WP Meet The Team
+# WP-Meet-The-Team
 Contributors:      ryscript
+Donate link: 	   https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=charles@coxhead.net&currency_code=&amount=&return=&item_name=Buy+me+a+coffee+for+A+Meet+The+Team+Plugin+for+WordPress
 Tags:			   team, people
 Requires at least: 3.6.0
 Tested up to:      4.2.0
@@ -9,7 +10,7 @@ License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
 
 # Description
-The people in your team are your most valuable asset, so why not feature them on your website. Meet The Team makes this super easy with a custom post type for team profiles. Display a grid of profiles on any page or post and optionally link these through to individual profile pages.
+A simple way to build and display team in your site.
 
 # Installation
 
@@ -18,17 +19,22 @@ Manual Installation
 1. Upload the entire '/wp-meet-the-team' directory to the '/wp-content/plugins/' directory.
 2. Activate WP Image Embeds through the 'Plugins' menu in WordPress.
 
-# Frequently Asked Questions
+Frequently Asked Questions
+===================
 
 
-# Screenshots
+Screenshots
+===================
 
 
-# Changelog 
+Changelog 
+===================
+
 1.0
 * First release
 
-# Upgrade Notice
+Upgrade Notice
+===================
 
 0.1.0
 First Release

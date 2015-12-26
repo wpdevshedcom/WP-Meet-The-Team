@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Meet The Team\n"
+"POT-Creation-Date: 2015-12-26 16:22+0800\n"
+"PO-Revision-Date: 2015-12-26 16:22+0800\n"
+"Last-Translator: \n"
+"Language-Team: WP Dev Shed\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-meet-the-team-actions.php:23
+#: includes/class-meet-the-team-actions.php:260
+msgid "Meet The Team"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:30
+msgid "Page Templates"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:70
+msgid "Job Title"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:73
+msgid "Your current job title"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:78
+msgid "Email"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:80
+msgid "Your primary email address"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:87
+msgid "Phone Number"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:90
+msgid "Your primary phone number"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:96
+msgid "Social Media Profile"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:97
+msgid "Add your social profile here if any"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:103
+msgid "Facebook Username"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:110
+msgid "Twitter Username"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:117
+msgid "LinkedIn URL"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:124
+msgid "Instagram Username"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:131
+msgid "Google+ URL"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:171
+msgid "Default Template"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:178
+msgid "Choose your layout in the box above"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:259
+#: includes/class-meet-the-team-actions.php:287
+msgid "Meet The Team Settings"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:292
+msgid "Profile Page"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:293
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:294
+msgid "Grid Order"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:301
+msgid "Link grid pages to profile page"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:303
+msgid "This will link individual profile pages to single profile item page"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:318
+msgid "The number of columns displayed on each row"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:326
+msgid "Alphabetical"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:327
+msgid "Date"
+msgstr ""
+
+#: includes/class-meet-the-team-actions.php:330
+msgid "How the items are displayed in order"
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:27
+msgid "The Teams"
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:28
+#: includes/class-meet-the-team-post-type.php:29
+#: includes/class-meet-the-team-post-type.php:30
+msgid "The Team"
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:31
+msgid "Add New"
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:32
+msgid "Add New Team Member"
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:33
+msgid "New Team"
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:34
+msgid "Edit Team"
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:35
+msgid "View Team"
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:36
+msgid "People"
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:37
+msgid "Search Teams"
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:38
+msgid "Parent Teams:"
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:39
+msgid "No teams found."
+msgstr ""
+
+#: includes/class-meet-the-team-post-type.php:40
+msgid "No teams found in Trash."
+msgstr ""
+
+#: wp-meet-the-team.php:63 wp-meet-the-team.php:73
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: wp-meet-the-team.php:84
+msgid "Method does not exist."
+msgstr ""
